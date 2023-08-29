@@ -1,4 +1,7 @@
 /* Common Shared Styles */
+*{
+    margin:0;
+}
 .body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -180,7 +183,14 @@ main section{
 }
 /* Image background form section Styles */
 .image-background{
+    margin-top:150px;
     background-image: url('../flowerAsset/Rectangle\ 9.png');
+}
+.email-design{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
 }
 .form-submit{
     margin:10px;
@@ -199,5 +209,34 @@ main section{
     border:0;
     width:50%;
 }
+/* Footer Information Styles */
 
+.foot{
+    margin-top:0px;
+    background:black;
+}
+.footer-info{
+    padding:50px;
+    text-align: center;
+}
+#white-part{
+    color:#FFF;
+}
+.white-text{
+    color:#FFF;
+}
+.footer-description{
+    margin-top:10px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.rights{
+    margin-top:10px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
 

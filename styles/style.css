@@ -126,3 +126,57 @@ main section{
     font-size: 24px;
     font-weight: 600;
 }
+
+/* Sales Style Starts here */
+.sales{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.offer{
+    padding:30px 150px 0px 150px;
+    display:flex;
+    gap:100px;
+    justify-content: space-between; 
+    align-items: center;
+}
+.offer-content{
+    max-width:700px;
+}
+.offer-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight:800;
+}
+.special-effect{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.offer-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.offer-image{
+    width:700px;
+
+}
+
+/* Footer Section Styles */
+
+/* Instagram Section Styles */
+.instagram{
+    margin-top:150px;
+    background: #FFF;
+    padding:100px;
+    border-radius:10px;
+    margin:100px 0;
+}
+.insta-images{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
